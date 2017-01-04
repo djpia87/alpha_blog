@@ -1,10 +1,4 @@
-<ul>
-<% if @article.errors.any? %>
-<h2>There was an error in your submission</h2>  
-  <% @article.errors.full_messages.each do |msg| %>
-<li><%= msg %></li>
-  <% end %>
-<% end %>
+<%= render 'shared/errors', obj: @article %>
 </ul>
 <div class='row'>
   <div class='col-xs-12'>
