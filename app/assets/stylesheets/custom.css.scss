@@ -34,10 +34,19 @@ $navbar-default-bg: black;
 
 .btn-xlarge{
   font-size: 1.8em;
-  position: fixed;
-  bottom: 2%;
+  position: absolute;
+  top: 90%;
   left: 45%;
   
+}
+
+.article-actions{
+  border-top: 2px solid #eaeaea;
+  padding-top: 10px;
+}
+
+.despription{
+  margin-top: 0;
 }
 
 footer{
